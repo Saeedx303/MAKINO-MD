@@ -43,7 +43,7 @@ module.exports = {
   heroku:  process.env.heroku === undefined ? true : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||true,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? 'd0216e9e-781d-4d00-8dbe-d8aaa86b8068' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'makino2md' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? '1.1' : process.env.VERSION,
